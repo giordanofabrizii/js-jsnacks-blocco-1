@@ -8,8 +8,10 @@ let numeroMaggiore;
 
 if (numeroA > numeroB) {
     numeroMaggiore = numeroA;
-} else {
+} else if (numeroB > numeroA) {
     numeroMaggiore = numeroB
+} else {
+    numeroMaggiore = 'I numeri inseriti sono uguali'
 }
 
 console.log(numeroMaggiore)
