@@ -3,9 +3,19 @@
 const containerEl = document.getElementById("container");
 
 let divRosso = document.createElement("div")
-divRosso.classList = "bg-rosso"
-containerEl.appendChild(divRosso)
+divRosso.classList = "bg-rosso";
+containerEl.appendChild(divRosso);
 
 let divVerde = document.createElement("div")
-divVerde.classList = "bg-verde"
-containerEl.appendChild(divVerde)
+divVerde.classList = "bg-verde";
+containerEl.appendChild(divVerde);
+
+let numbers = [1,2,3,4,5,6,7,8,9];
+
+for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 0) {
+        divVerde.innerHTML += numbers[i] + " ";
+    } else {
+        divRosso.innerHTML += numbers[i] + " ";
+    }
+}
