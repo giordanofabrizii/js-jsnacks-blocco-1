@@ -3,11 +3,11 @@
 const containerEl = document.getElementById("container");
 
 let divRosso = document.createElement("div")
-divRosso.classList = "bg-rosso";
+divRosso.classList = "c-rosso";
 containerEl.appendChild(divRosso);
 
 let divVerde = document.createElement("div")
-divVerde.classList = "bg-verde";
+divVerde.classList = "c-verde";
 containerEl.appendChild(divVerde);
 
 let numbers = [1,2,3,4,5,6,7,8,9];

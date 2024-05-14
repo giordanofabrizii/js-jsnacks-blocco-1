@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    color: white;
 }
 
 #container{
@@ -11,14 +9,18 @@
     justify-content: center;
 }
 
-.bg-rosso{
-    background-color: red;
+div:not(#container){
+    border: 1px solid black;
+}
+
+.c-rosso{
+    color: red;
     min-height: 4rem;
     width: 10rem;
 }
 
-.bg-verde{
-    background-color: green;
+.c-verde{
+    color: green;
     min-height: 4rem;
     width: 10rem;
 }
