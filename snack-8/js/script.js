@@ -10,10 +10,16 @@ let divVerde = document.createElement("div")
 divVerde.classList = "c-verde";
 containerEl.appendChild(divVerde);
 
-let numbers = [1,2,3,4,5,6,7,8,9];
+let divGiallo = document.createElement("div")
+divGiallo.classList = "c-giallo";
+containerEl.appendChild(divGiallo);
+
+let numbers = [1,2,3,4,5,6,7,8,9,10];
 
 for (i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 == 0) {
+    if (numbers[i] % 5 == 0) {
+        divGiallo.innerHTML += numbers[i] + " ";
+    } else if (numbers[i] % 2 == 0) {
         divVerde.innerHTML += numbers[i] + " ";
     } else {
         divRosso.innerHTML += numbers[i] + " ";
