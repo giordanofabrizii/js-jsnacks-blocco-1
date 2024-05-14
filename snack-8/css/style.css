@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
+
+.bg-rosso{
+    background-color: red;
+}
+
+.bg-verde{
+    background-color: green;
+}
