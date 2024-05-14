@@ -4,7 +4,7 @@
 
 let numberList = [];
 
-for (let i = 0; i < 6; i++) {
+for (i = 0; i < 6; i++) {
     let userNumber = Number.parseInt(prompt("Ciao,inserisci un numero"));
 
     // ! se dispari
